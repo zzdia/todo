@@ -1,0 +1,80 @@
+
+## Module files
+*.iml
+
+# Gradle files
+.gradle
+/build
+
+# Local configuration file (sdk/ndk path, etc)
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+
+# Android Studio
+.navigation/
+captures/
+output.json
+
+.externalNativeBuild
+.cxx
+
+# Copyright 2017 - 2018 Vorlonsoft LLC
+#
+# Licensed under The MIT License (MIT)
+
+# Built application files
+*.ap_
+*.apk
+
+# Built library files
+*.aar
+*.jar
+
+# Built native files
+*.o
+*.so
+
+# Files for the Dalvik/Android Runtime (ART)
+*.dex
+*.odex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Log Files
+*.log
+
+# NDK
+.externalNativeBuild/
+obj/
+
+# IntelliJ
+## User-specific stuff
+.idea/**/tasks.xml
+.idea/**/workspace.xml
+.idea/dictionaries
+## Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dynamic.xml
+.idea/**/sqlDataSources.xml
+.idea/**/uiDesigner.xml
+## Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+## VCS
+.idea/vcs.xml
+## File-based project format
+*.iws
