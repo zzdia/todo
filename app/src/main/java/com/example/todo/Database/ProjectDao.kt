@@ -1,5 +1,6 @@
 package com.example.todo.Database
 
+import androidx.lifecycle.LiveData
 import androidx.room.*
 
 @Dao
@@ -12,5 +13,13 @@ interface ProjectDao {
 
     @Transaction
     @Query("SELECT * FROM Project")
-    fun getProjectWithTasks(): List<ProjectWithTasks>
+    fun getProjectWithTasks(): LiveData<List<ProjectWithTasks>>
+
+    @Transaction
+    @Query("SELECT * FROM Project")
+    fun getProjectWithSections(): LiveData<List<ProjectWithSections>>
+
+    @Transaction
+    @Query("SELECT * FROM Project")
+    fun getAllProjects(): LiveData<List<Project>>
 }
